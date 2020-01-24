@@ -1,20 +1,13 @@
 import React, { Component } from "react";
 
 class UserItem extends Component {
-  state = {
-    id: "id",
-    login: "mojombo",
-    avatat_url: "https://avatars2.githubusercontent.com/u/136?v=4",
-    html_url: "github.com/believemaster"
-  };
-
   render() {
-    const { login, avatat_url, html_url } = this.state;
+    const { login, avatar_url, html_url } = this.props.user;
 
     return (
       <div className='card text-center'>
         <img
-          src={avatat_url}
+          src={avatar_url}
           alt=''
           className='round-img'
           style={{ width: "60px" }}
