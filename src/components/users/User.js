@@ -65,7 +65,7 @@ export class User extends Component {
           <div>
             {bio && (
               <Fragment>
-                <h3>Bio</h3>
+                <h3>Bio:</h3>
                 <p>{bio}</p>
               </Fragment>
             )}
