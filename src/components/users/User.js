@@ -83,7 +83,7 @@ const User = ({ match }) => {
               )}
             </li>
             <li>
-              {login && (
+              {blog && (
                 <Fragment>
                   <strong>Website:</strong> {blog}
                 </Fragment>
