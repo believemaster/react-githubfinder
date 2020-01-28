@@ -1,7 +1,14 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# BM-Github Finder
+
+A project to search users of github and look into their details by fetching data from github API. Try this out here [BM-Github Finder](https://bmgithubfinder.netlify.com/).
+
+## Tools Used
+* Custom CSS(Bootstrap Styles)
+* React.Js
+* Github API to fetch data
+* Font Awesome Icons
 
 ## Available Scripts
-
 In the project directory, you can run:
 
 ### `npm start`
