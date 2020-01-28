@@ -29,6 +29,13 @@ export default (state, action) => {
         loading: false
       };
 
+    case GET_REPOS:
+      return {
+        ...state,
+        repos: action.payload,
+        loafing: false
+      };
+
     case SET_LOADING:
       return {
         ...state,
